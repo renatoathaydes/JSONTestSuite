@@ -376,6 +376,11 @@ programs = {
            "url":"",
            "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_jackson_2_8_4/TestJSONParsing.jar")]
        },
+   "Java SafeSON 1.0":
+       {
+           "url":"",
+           "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_safeson_1_0/TestJSONParsing.jar")]
+       },
    "Scala Dijon 0.3.0":
        {
            "url":"",
